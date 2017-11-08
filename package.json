@@ -1,0 +1,18 @@
+{
+  "name": "convex-hull-na",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dms2dec": "^1.1.0",
+    "fast-csv": "^2.4.1",
+    "geo-convex-hull": "^1.2.0",
+    "mssql": "^4.1.0",
+    "turf-area": "^3.0.12"
+  }
+}
