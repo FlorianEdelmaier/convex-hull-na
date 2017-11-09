@@ -35,7 +35,7 @@ const loadData = async() => {
        INNER JOIN LucyApp.NationalAssociation AS na ON na.NationalAssociationID = naob.OrgEntityBaseID
        INNER JOIN Lucyapp.OrgEntityBase AS rob ON rob.OrgEntityBaseID = na.SOSRegionID
        WHERE p.IsInactive = 0
-       ) tmp WHERE pLat IS NOT NULL AND pLon IS NOT NULL AND rName <> 'EUNA'
+       ) tmp WHERE rName <> 'EUNA'
        `
        return result.recordset;
    } catch (err) {
